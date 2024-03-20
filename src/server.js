@@ -7,6 +7,7 @@ app.get("/",async(req,res)=>{
 })
 
 app.get("/data",async(req,res)=>{
+    console.log("13244242424");
     return res.send("data is comming")
 })
 
