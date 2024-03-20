@@ -6,6 +6,10 @@ app.get("/",async(req,res)=>{
     return res.send("home page")
 })
 
+app.get("data",async(req,res)=>{
+    return res.send("data is comming")
+})
+
 app.listen(port,()=>{
     console.log(`Server is running ${port}`);
 })
